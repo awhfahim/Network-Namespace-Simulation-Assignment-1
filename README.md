@@ -1,6 +1,6 @@
 ### **Setting Up a FIB Network with Two Namespaces (NS1 & NS2) and a Router Namespace**
 
-You want to create a **Forwarding Information Base (FIB)** network where:
+**Forwarding Information Base (FIB)** network where:
 
 - `ns1` and `ns2` are **two separate network namespaces**.
 - They are connected to **different bridges**.
@@ -15,6 +15,7 @@ The IP addressing scheme follows a **subnet-based segmentation**:
 - **Router Namespace (router-ns)** acts as the gateway:
     - `10.11.0.22` for `ns1`
     - `10.12.0.22` for `ns2`
+
 
 ### **🛠 Network Plan**
 
